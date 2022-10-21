@@ -1,13 +1,11 @@
 # Golang Concurency - Ping Pong
 
-Based on mas [imre nagi],
+Based on mas [imre nagi]
 
 ## Test Case
-- Ping-Pong sederhana
-- 2 pemain ping-pong saling mengembalikan bola
-- pemain berhenti setelah 1 detik
-- Gunakan konkurensi dngan 1 channel
-
+- Goroutine untuk wasit/referree
+- Wasit akan mengambil bola ketika salah satu pemain tidak dapat mengembalikan bola ke lawan
+- Permainan selesai, wasit menentukan pemenang.
 
 
    [git-repo]: <https://github.com/jadahbakar/concurency-pingpong>
