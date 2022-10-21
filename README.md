@@ -1,7 +1,7 @@
 # Golang Concurency - Ping Pong
 
 Based on mas [imre nagi],
-AngularJS-powered HTML5 Markdown editor.
+
 
 ## Test Case
 - Ping-Pong sederhana
