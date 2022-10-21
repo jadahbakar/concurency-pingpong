@@ -16,6 +16,9 @@ func main() {
 	go player("dedy", table)
 	go player("adit", table)
 
+	go player("diah", table)
+	go player("anin", table)
+
 	// pass new ball to table(channel)
 	table <- new(ball)
 	time.Sleep(1 * time.Second)
